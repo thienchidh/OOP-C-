@@ -35,6 +35,21 @@ std::string Employee::get_address() const
     return address;
 }
 
+void Employee::set_name(const std::string& name)
+{
+    this->name = name;
+}
+
+void Employee::set_age(int age)
+{
+    this->age = age;
+}
+
+void Employee::set_address(const std::string& address)
+{
+    this->address = address;
+}
+
 void Employee::doSomething()
 {
     std::cout << this->name << ". Employee::doSomething" << "\n";
